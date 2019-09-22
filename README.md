@@ -130,4 +130,4 @@ page.
 * [Trello](trello.md) ⭐
 * [Calendar](calendar.md) ⭐
 * [Bataille navale](bataille.md) ⭐⭐
-* [Bomberman](bomeberman.md) ⭐⭐⭐
+* [Bomberman](bomberman.md) ⭐⭐⭐
