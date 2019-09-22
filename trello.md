@@ -1,4 +1,4 @@
-#Trello ⭐
+# Trello ⭐
 
 Le but du projet est de créer une version simplifiée d'un trello,
 permettant à plusieurs utilisateurs de s'organiser dans la réalisation
