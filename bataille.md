@@ -1,4 +1,4 @@
-#Bataille navale ⭐⭐
+# Bataille navale ⭐⭐
 
 Le but de ce projet est de réaliser un jeu de bataille navale en ligne
 multi-utilisateur.
