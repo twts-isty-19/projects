@@ -87,6 +87,10 @@ gestionnaires :
 
   Le créateur d'un tableau pourra également lui donner un nom afin de le
   retrouver aisément.
+- Ajouter la possibilité de "glisser" une carte d'une colonne à une autre
+  avec un "drag-and-drop".
+  Vouz pouvez utiliser ce package pour gérer simplement les événements souris:
+  https://package.elm-lang.org/packages/mpizenberg/elm-pointer-events/ .
 - Ajouter des rôles aux membres de tableaux. Par exemple "admin" (tous les
   droits, y compris ajouter/retirer des membres), "éditeur" (modification des
   des colonnes et tâches) et "visiteur" (lecture seule).
