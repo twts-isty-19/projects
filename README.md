@@ -10,11 +10,13 @@ mais vous donnera une idée):
 * point précédent avec un travail sur le style et l'erognomie: 11/20
 * point précédent avec un ou deux bonus "faciles": 15/20
 * point précédent avec un plusieurs bonus réalisés (ou un "très difficile"): 18/20
-* qualité du code: modificateur entre -3 et +3.
+* qualité du code: modificateur entre -2 et +2.
+* qualité de la présentation : modificateur entre -2 et +2.
 
 ## Note sur la sécurité
 Nous avons vu en cours plusieurs attaques (rudimentaires) possibles et quels
-outils utiliser pour les contrer efficacement. Les failles présentées en cours sont parmi les plus évidentes et sont les premières à être testées par les pirates informatiques. Il
+outils utiliser pour les contrer efficacement. Les failles présentées en cours sont parmi les plus évidentes et sont les premières à être testées par les pirates
+informatiques. Il
 est donc inconcevable que le site que vous allez produire soit vulnérable à ces
 attaques.
 
@@ -38,7 +40,9 @@ En revanche un site juste "beau" mais sans fonctionnalités ou comportant des
 failles de sécurité évidentes ne dépassera 5/20.
 
 Cependant, CSS fait partie des technologies à connaître dans l'élaboration d'un
-site web, il vous faudra donc en faire usage &ndash; de façon intelligente et en suivant les pratiques modernes bien sûr (*e.g.* Flexbox) &ndash; si vous espérez décrocher une bonne note.
+site web, il vous faudra donc en faire usage &ndash; de façon intelligente et en
+suivant les pratiques modernes bien sûr (*e.g.* Flexbox) &ndash; si vous espérez
+décrocher une bonne note.
 
 Lorsque vous voudrez vous vendre ou produire une application commerciale, il
 faudra bien sûr passer du temps sur le design et l'ergonomie. C'est une activité
@@ -53,6 +57,7 @@ En bref, les enseignants de ce module sont des programmeurs, ils vous évalueron
 et pourront vous faire progresser essentiellement sur votre code et relativement
 peu sur l'aspect visuel de votre site.
 
+
 ## Conseils pour réaliser votre projet
 
 Nous vous conseillons pour réaliser votre projet
@@ -63,11 +68,12 @@ projet informatique) :
    ajouter à votre code.
 </li><li> Définissez *ensemble* les (types de) données que vous allez utiliser :
     quelle structure de
-    tables SQL, quelle structure de donnée en Python, quel type en Elm, ...
+    tables SQL, quelle structure de données en Python, quel type en Elm, ...
 </li><li> Réfléchissez *ensemble* aux interactions avec ces données : qui a le droit de faire quoi ?
    tel traitement est-il effectué côté serveur ou côté client ? Quelles données
-   vont être transférée ? Les traitements
-   qu'on veut effectuer sont-ils immédiats à réaliser avec la structure de
+   vont être transférées ? Les traitements "courants"
+   que l'on veut effectuer sont-ils raisonables à réaliser (du point de vue de
+   la complexité algorithmique) avec la structure de
    données choisie ? Si non, ne pas hésiter à revenir au point 1.
 
    Si cela semble trop complexe, revenir à l'étape 0. et découper la
@@ -75,8 +81,8 @@ projet informatique) :
 
    **N'hésitez pas à en discuter avec les enseignants, même (et surtout !)
    avant d'avoir commencé à coder.**
-</li><li> Coder ce à quoi vous venez de réfléchir en gardant l'affichage
-   le plus minimaliste possible (pas de CSS ni d'images à ce stade). Par exemple
+</li><li> Coder ce à quoi vous venez de réfléchir en gardant **l'affichage
+   le plus minimaliste possible** (pas de CSS ni d'images à ce stade). Par exemple
    pour un jeu, afficher juste les coordonnées des personnages et des objets
    présents suffit à valider le bon fonctionnement du code.
 
@@ -96,14 +102,17 @@ projet informatique) :
    déjà faire beaucoup de choses et s'assurer que tout fonctionne grâce au
    compilateur.
 </li>
-<li> (Optionnel, vous pouvez développer plusieurs fonctionnalités, PUIS vous occuper du design) Maintenant que tout fonctionne, occupez-vous "d'habiller votre site" en
+<li> (Optionnel, vous pouvez développer plusieurs fonctionnalités, PUIS vous
+   occuper du design) Maintenant que tout fonctionne, occupez-vous
+   "d'habiller votre site" en
    utilisant du CSS, des images, du contenu...
 </li><li> Ajoutez une nouvelle fonctionnalité en reprenant les étapes précédentes.
 </li>
 </ol>
-Les structures de données que vous utilisez sont réellement la clef de voûte
-de votre code. Si vous choisissez les bonnes, votre code sera simplissime à
-écrire et à
+
+Les **structures de données** que vous utilisez sont réellement la **clef de
+voûte** de votre code. Si vous choisissez les bonnes, votre code sera simplissime
+à écrire et à
 lire. Dans le cas contraire, vous vous retrouverez rapidement avec du code
 pénible à écrire et très difficile à maintenir.
 
@@ -118,6 +127,80 @@ Vous remarquerez que "coder" n'intervient qu'à l'étape 3. et que je vous invit
 à faire des aller-retours dans les étapes. Votre code n'est pas au patrimoine
 mondial de l'UNESCO: il doit vivre, évoluer, être refactorisé au fur et à mesure
 que votre projet progresse.
+
+Dans tous les cas: **ne vous occupez du design tant que vous n'avez pas les
+fonctionnalités !**
+
+**Bibliothèques CSS**
+
+Pour simplifier la vie des développeurs non-designers, il existe diverses
+bibliothèques CSS comme Bootstrap et Bulma. Vous êtes complètement libres de
+les utiliser ; à noter qu'il existe des paquets Elm (
+[https://package.elm-lang.org/packages/surprisetalk/elm-bulma/latest/](https://package.elm-lang.org/packages/surprisetalk/elm-bulma/latest/),
+[https://package.elm-lang.org/packages/rundis/elm-bootstrap/latest/](https://package.elm-lang.org/packages/rundis/elm-bootstrap/latest/))
+enveloppant ces bibliothèques, permettant de les utiliser de façon "typée" et
+donc plus fiable.
+
+## Soutenances
+
+Les soutenances auront lieu sur la journée du 13 novembre.
+Bien savoir présenter son projet est important, ainsi la qualité de la
+présentation sera prise en compte dans la notation (sans être prépondérante :
+un projet "creux" très bien présenté n'aura pas la moyenne).
+
+Chaque binôme passera
+pendant vingt minutes, et la soutenance sera découpée comme suit:
+* 7 minutes de présentation du projet, incluant une démonstration ;
+* le reste du temps consacré à un échange avec le jury sur le projet.
+
+**Déroulement _possible_**
+* Description rapide du projet, de ses principales fonctionnalités
+* Démonstration (chacun des membres du jury aura un ordinateur, vous pouvez
+  interagir avec eux ; pour un jeu un peu long, prévoir une partie "presque
+  temrinée" afin de montrer la fin du jeu)
+* Explication de l'architecture globale de l'application, des données échangées
+  ou d'un point technique délicat (des schémas sont quasi-indispensalbes!).
+
+
+Quelques conseils:
+* le jury va enchaîner 25 présentations dans la journée. Il est de votre devoir
+  de le *maintenir éveillé et attentif*;
+* prenez cette présentation comme une simulation d'une présentation
+  professionnelle: vous avez 7 minutes pour nous convaincre que le produit que
+  vous avez développé est fonctionnellement et techniquement assez solide pour
+  lancer votre stratup!
+* 7 minutes, c'est court! Forcez-vous à aller droit à l'essentiel sur ce que
+  **vous** avez fait. Inutile de nous expliquer comment fonctionne HTTP,
+  Websocket, cookies, AJAX, la Force, HTML,... nous venons de vous faire un
+  cours dessus, nous savons comment ça marche ! Expliquez-nous plutôt comment
+  vous avez utilisé ces technologies pour construire vos fonctionnalités;
+* nous ne sommes que moyennement intéressés par les "difficultés" que vous
+  avez rencontrées. Nous sommes vos clients, vous êtes le prestataire, présentez
+  nous ce qui marche!
+* Des "slides" peuvent vous aider à suivre la structure de la présentation que
+  vous avez prévue. En revanche, elles ne doivent pas être le *contenu* de votre
+  présentation ; l'auditeur doit être attentif à ce que vous dites et ne pas être
+  distrait par la lecture des textes à l'écran.
+
+  Limitez donc chaque slide à soit:
+  - une courte phrase résumant votre idée,
+  - un schéma,
+  - un extrait de code **lisible** (préférez du texte sombre sur fond clair
+     pour projeter)
+  - ...
+
+  Vous n'êtes pas tenus de faire des slides, mais dans tous les cas,
+  votre présentation doit être structurée et fluide. Le site que j'utilise
+  pour faire les slides du cours est https://slides.com/.
+  Le site https://slidebean.com/ permet d'ajouter efficacement des éléments au
+  fur et à mesure sur les slides, mais manque d'un vrai module de géométrie
+  où l'on peut dessiner des flèches, formes...
+* essayez d'anticiper les questions du jury afin d'y répondre efficacement
+  lors du temps d'échange. Vous pouvez notamment préparer des slides/schéma que
+  vous réservez pour les questions.
+* 7 minutes, c'est court ! Préparez et répétez votre présentation (devant
+  public) est indispensable !
+
 
 # Projets proposés
 
