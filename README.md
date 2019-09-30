@@ -141,7 +141,7 @@ les utiliser ; à noter qu'il existe des paquets Elm (
 enveloppant ces bibliothèques, permettant de les utiliser de façon "typée" et
 donc plus fiable.
 
-## Soutenances
+## Soutenances
 
 Les soutenances auront lieu sur la journée du 13 novembre.
 Bien savoir présenter son projet est important, ainsi la qualité de la
