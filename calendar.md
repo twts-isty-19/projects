@@ -13,7 +13,7 @@ chevaucher ou se superposer**.  Un événement a au moins :
 * une date et heure de fin,
 * un créateur.
 
-Ces champs sont reflétés dans une table MySQL. Une autre table MySQL
+Ces champs sont reflétés dans une table SQL. Une autre table SQL
 sera utilisée pour stocker les utilisateurs et leurs mots de passe.
 
 L'application est composée de deux *vues* :
@@ -141,7 +141,7 @@ l'utilisateur a cliqué. Vous pouvez pour cela utiliser la bibliothèque suivant
   tester avec un téléphone ou tablette.
 
 * Utiliser une base de données No-SQL (par exemple MongoDB) à la place
-  de MySQL.
+  de SQL.
 
 * Faire en sorte que 15 minutes avant un évènement, un message
   d'alerte soit affiché sur la page.
