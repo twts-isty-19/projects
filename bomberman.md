@@ -118,6 +118,10 @@ Pour l'interface de jeux vous avez plusieurs choix :
 - Ajouter des caractéristiques du jeu original, ou de votre crû : murs
   destructibles, *upgrades*, etc.
 
+- Enregistrer les parties pour pouvoir les revoir après coup. Il suffit pour
+  cela d'enregistrer chacune des actions des utilisateurs avec le temps où ces
+  actions interviennent.
+
 - Proposer un "éditeur de maps" pour construire des terrains de jeu
   personnalisés.
 
